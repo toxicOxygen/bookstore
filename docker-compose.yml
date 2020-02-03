@@ -7,6 +7,7 @@ services:
     environment: 
       - SECRET_KEY=m$pqk=432hs#*_36lu33ogj^^@k-+24ox@5r%&*@ue0kal&bqe 
       - DEBUG=1
+      - SENDGRID_API_KEY=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
     volumes:
       - .:/code
     ports:

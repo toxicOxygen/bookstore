@@ -7,7 +7,7 @@ services:
     environment: 
       - SECRET_KEY=paste_sendgrid_key 
       - DEBUG=1
-      - SENDGRID_API_KEY=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
+      - SENDGRID_API_KEY=put_key_here
     volumes:
       - .:/code
     ports:
